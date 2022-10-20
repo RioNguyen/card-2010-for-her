@@ -1,0 +1,89 @@
+/* PC */
+
+@media (min-width: 64em) {}
+
+
+/* ======== Tablet and Mobile ======== */
+
+
+/* 
+    Select ipad air as standard
+    Preferred choice is 63.938em = 1023px
+*/
+
+@media (max-width: 61.9375em) {
+    /* ===== Common ===== */
+    /* Header */
+    .nav-item_pc-closed {
+        display: inline-block;
+    }
+    .frits__lang-menu {
+        display: none;
+    }
+    /* Footer */
+    #frits__footer .frits__social-list a {
+        margin: 0 12px;
+    }
+    #frits__footer .frits__copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+    /* ===== Index ===== */
+    /* Contact info */
+    .frits__contact-info {
+        line-height: 2;
+    }
+}
+
+
+/* ======== Tablet ======== */
+
+@media (min-width: 46.25em) and (min-width: 61.9375em) {}
+
+
+/* ======== Mobile ======== */
+
+@media (max-width: 46.1875em) {
+    /* ===== Common ===== */
+    .frits__s-mt-8 {
+        margin-top: 8px;
+    }
+    .frits__s-full-width,
+    .frits__s-col-full {
+        width: 100%;
+    }
+    /* Header */
+    /* Slider */
+    #frits__slider .frits__text-content {
+        bottom: 10px;
+    }
+    #frits__slider .frits__text-heading {
+        font-size: 16px;
+    }
+    #frits__slider .frits__text-description {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    /* Footer */
+    #frits__footer .frits__social-list a {
+        padding: 4px;
+    }
+    /* ===== Index ===== */
+    /* Events */
+    .frits__place-event-img {
+        max-height: 30rem;
+    }
+    .frits__place-event-body {
+        margin-bottom: 16px;
+    }
+    /* Contact */
+    .frits__contact-info {
+        font-size: 12px;
+    }
+    /* ====== Core ===== */
+    /* President */
+    #frits__content .frits__content-section .frits__content-img-core--president {
+        margin: 0;
+        width: 100%;
+    }
+}
